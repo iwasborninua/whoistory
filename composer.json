@@ -1,0 +1,9 @@
+{
+    "require": {
+        "symfony/dom-crawler": "^4.2",
+        "symfony/css-selector": "^4.2",
+        "react/event-loop": "^1.1",
+        "clue/buzz-react": "2.5",
+        "clue/mq-react": "1.1"
+    }
+}
