@@ -4,24 +4,13 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit2e211fbddd7b17031c7f02ea21e8b00e
+class ComposerStaticInit8ab97d25f4f63edd657d5a69802ba8f6
 {
     public static $files = array (
         'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
-        'e8aa6e4b5a1db2f56ae794f1505391a8' => __DIR__ . '/..' . '/amphp/amp/lib/functions.php',
-        '76cd0796156622033397994f25b0d8fc' => __DIR__ . '/..' . '/amphp/amp/lib/Internal/functions.php',
-        '6cd5651c4fef5ed6b63e8d8b8ffbf3cc' => __DIR__ . '/..' . '/amphp/byte-stream/lib/functions.php',
-        '8dc56fe697ca93c4b40d876df1c94584' => __DIR__ . '/..' . '/amphp/process/lib/functions.php',
-        'b324e763907bc37a8bdf81fa40eb1b39' => __DIR__ . '/..' . '/amphp/sync/lib/functions.php',
-        '7863f327e247feb05e3be59a4fe77a6b' => __DIR__ . '/..' . '/amphp/uri/src/functions.php',
-        '445532134d762b3cbc25500cac266092' => __DIR__ . '/..' . '/daverandom/libdns/src/functions.php',
-        '7ebf029ad4b246f1e3f66192b40a932f' => __DIR__ . '/..' . '/amphp/dns/lib/functions.php',
-        '384cf4f2eb4d2f896db72315a76066ad' => __DIR__ . '/..' . '/amphp/parallel/lib/Worker/functions.php',
-        '68a7b7dddb51c03877a41f03c909bf08' => __DIR__ . '/..' . '/amphp/file/lib/functions.php',
-        'd4e415514e4352172d58f02433fa50e4' => __DIR__ . '/..' . '/amphp/socket/src/functions.php',
-        '1c2dcb9d6851a7abaae89f9586ddd460' => __DIR__ . '/..' . '/amphp/socket/src/Internal/functions.php',
         '972fda704d680a3a53c68e34e193cb22' => __DIR__ . '/..' . '/react/promise-timer/src/functions_include.php',
-        '8c64a9465c4a4256990ec1a12ef7d0bf' => __DIR__ . '/..' . '/umbri/amp-react-interop/lib/functions.php',
+        'cea474b4340aa9fa53661e887a21a316' => __DIR__ . '/..' . '/react/promise-stream/src/functions_include.php',
+        'ebf8799635f67b5d7248946fe2154f4a' => __DIR__ . '/..' . '/ringcentral/psr7/src/functions_include.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
     );
@@ -36,42 +25,25 @@ class ComposerStaticInit2e211fbddd7b17031c7f02ea21e8b00e
         ),
         'R' => 
         array (
+            'RingCentral\\Psr7\\' => 17,
             'React\\Stream\\' => 13,
+            'React\\Socket\\' => 13,
             'React\\Promise\\Timer\\' => 20,
+            'React\\Promise\\Stream\\' => 21,
             'React\\Promise\\' => 14,
+            'React\\HttpClient\\' => 17,
             'React\\EventLoop\\' => 16,
             'React\\Dns\\' => 10,
             'React\\Cache\\' => 12,
         ),
-        'L' => 
+        'P' => 
         array (
-            'LibDNS\\' => 7,
-        ),
-        'K' => 
-        array (
-            'Kelunik\\Certificate\\' => 20,
+            'Psr\\Http\\Message\\' => 17,
         ),
         'C' => 
         array (
             'Clue\\React\\Mq\\' => 14,
             'Clue\\React\\Buzz\\' => 16,
-        ),
-        'A' => 
-        array (
-            'Amp\\WindowsRegistry\\' => 20,
-            'Amp\\Uri\\' => 8,
-            'Amp\\Sync\\' => 9,
-            'Amp\\Socket\\' => 11,
-            'Amp\\ReactAdapter\\' => 17,
-            'Amp\\Process\\' => 12,
-            'Amp\\Parser\\' => 11,
-            'Amp\\Parallel\\' => 13,
-            'Amp\\File\\' => 9,
-            'Amp\\Dns\\' => 8,
-            'Amp\\Cache\\' => 10,
-            'Amp\\ByteStream\\' => 15,
-            'Amp\\Artax\\' => 10,
-            'Amp\\' => 4,
         ),
     );
 
@@ -92,17 +64,33 @@ class ComposerStaticInit2e211fbddd7b17031c7f02ea21e8b00e
         array (
             0 => __DIR__ . '/..' . '/symfony/css-selector',
         ),
+        'RingCentral\\Psr7\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ringcentral/psr7/src',
+        ),
         'React\\Stream\\' => 
         array (
             0 => __DIR__ . '/..' . '/react/stream/src',
+        ),
+        'React\\Socket\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/socket/src',
         ),
         'React\\Promise\\Timer\\' => 
         array (
             0 => __DIR__ . '/..' . '/react/promise-timer/src',
         ),
+        'React\\Promise\\Stream\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/promise-stream/src',
+        ),
         'React\\Promise\\' => 
         array (
             0 => __DIR__ . '/..' . '/react/promise/src',
+        ),
+        'React\\HttpClient\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/http-client/src',
         ),
         'React\\EventLoop\\' => 
         array (
@@ -116,13 +104,9 @@ class ComposerStaticInit2e211fbddd7b17031c7f02ea21e8b00e
         array (
             0 => __DIR__ . '/..' . '/react/cache/src',
         ),
-        'LibDNS\\' => 
+        'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/daverandom/libdns/src',
-        ),
-        'Kelunik\\Certificate\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/kelunik/certificate/lib',
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Clue\\React\\Mq\\' => 
         array (
@@ -131,62 +115,6 @@ class ComposerStaticInit2e211fbddd7b17031c7f02ea21e8b00e
         'Clue\\React\\Buzz\\' => 
         array (
             0 => __DIR__ . '/..' . '/clue/buzz-react/src',
-        ),
-        'Amp\\WindowsRegistry\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/amphp/windows-registry/lib',
-        ),
-        'Amp\\Uri\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/amphp/uri/src',
-        ),
-        'Amp\\Sync\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/amphp/sync/lib',
-        ),
-        'Amp\\Socket\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/amphp/socket/src',
-        ),
-        'Amp\\ReactAdapter\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/amphp/react-adapter/src',
-        ),
-        'Amp\\Process\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/amphp/process/lib',
-        ),
-        'Amp\\Parser\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/amphp/parser/lib',
-        ),
-        'Amp\\Parallel\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/amphp/parallel/lib',
-        ),
-        'Amp\\File\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/amphp/file/lib',
-        ),
-        'Amp\\Dns\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/amphp/dns/lib',
-        ),
-        'Amp\\Cache\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/amphp/cache/lib',
-        ),
-        'Amp\\ByteStream\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/amphp/byte-stream/lib',
-        ),
-        'Amp\\Artax\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/amphp/artax/lib',
-        ),
-        'Amp\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/amphp/amp/lib',
         ),
     );
 
@@ -203,9 +131,9 @@ class ComposerStaticInit2e211fbddd7b17031c7f02ea21e8b00e
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit2e211fbddd7b17031c7f02ea21e8b00e::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit2e211fbddd7b17031c7f02ea21e8b00e::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit2e211fbddd7b17031c7f02ea21e8b00e::$prefixesPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8ab97d25f4f63edd657d5a69802ba8f6::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8ab97d25f4f63edd657d5a69802ba8f6::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit8ab97d25f4f63edd657d5a69802ba8f6::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
